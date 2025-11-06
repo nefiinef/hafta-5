@@ -1,7 +1,7 @@
 # Javascript Drum Kit
 
 Bu proje eğitim amaçlı oluşturulmuştur
-Projeyi incelemek için [Tıklayın]()
+Projeyi incelemek için [Tıklayın](https://nefiinef.github.io/hafta-5/JavascriptDrumKit/)
 
 
 ## Kullanılan Teknolojiler
