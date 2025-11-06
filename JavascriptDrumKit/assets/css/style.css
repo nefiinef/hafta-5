@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: linear-gradient(135deg, #cacbcd, #77726e);
+}
+html {
+  overflow-x: hidden;
+}
+h1 {
+  color: #f9f9f9;
+  opacity: 0.9;
+  margin: 0.5rem auto 4rem auto;
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
+img {
+  max-width: 48rem;
+  display: block;
+  margin: 0 auto;
+  filter: contrast(83%);
+}
+/********/
+img.drumA {
+  transition: filter 0.5s ease;
+  filter: contrast(85%) drop-shadow(0 0 15rem #f6f2ee);
+}
+img.drumS {
+  transition: filter 0.5s ease;
+  filter: contrast(85%) drop-shadow(0 0 15rem #f2d6ce);
+}
+img.drumD {
+  transition: filter 0.5s ease;
+  filter: contrast(85%) drop-shadow(0 0 10rem #f2e7dd);
+}
+img.drumF {
+  transition: filter 0.5s ease;
+  filter: contrast(85%) drop-shadow(0 0 10rem #c7bbb0);
+}
+img.drumG {
+  transition: filter 0.5s ease;
+  filter: contrast(85%) drop-shadow(0 0 15rem #a38f80);
+}
+img.drumH {
+  transition: filter 0.5s ease;
+  filter: contrast(85%) drop-shadow(0 0 15rem #cbbdd476);
+}
+img.drumJ {
+  transition: filter 0.5s ease;
+  filter: contrast(85%) drop-shadow(0 0 15rem #9fa4a3);
+}
+img.drumK {
+  transition: filter 0.5s ease;
+  filter: contrast(85%) drop-shadow(0 0 15rem #8a9699);
+}
+img.drumL {
+  transition: filter 0.5s ease;
+  filter: contrast(85%) drop-shadow(0 0 15rem #d0cdd9);
+}
+
+/********/
+.drum-buttons {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  opacity: 0.7;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  flex: 0 1 5rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+button:hover {
+  filter: drop-shadow(0.2rem 0.1rem 0.3rem rgb(227, 227, 227));
+  color: #c5c5c5;
+  transition: all 0.3s ease;
+  background-clip: border;
+  text-shadow: 0 0 1rem;
+}
+button:active {
+  filter: drop-shadow(0.2rem 0.1rem 0.3rem rgb(227, 227, 227));
+  transform: scale(0.8);
+}
+button.active {
+  filter: drop-shadow(0.2rem 0.1rem 0.3rem rgb(227, 227, 227));
+  transform: scale(0.8);
+  color: #c5c5c5;
+  transition: all 0.3s ease;
+  background-clip: border;
+  text-shadow: 0 0 1rem;
+}
+
+/*-----------------------*/
